@@ -100,7 +100,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
-                    <testClassesDirectory>PoorniTest.java</testClassesDirectory>
+                    <testClassesDirectory>target/classes</testClassesDirectory>
                     <parallel>methods</parallel>
                     <threadCount>10</threadCount>
                     <testFailureIgnore>true</testFailureIgnore>
@@ -112,8 +112,8 @@
                 <version>3.1</version>
                 <configuration>
                     <encoding>iso-8859-1</encoding>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
